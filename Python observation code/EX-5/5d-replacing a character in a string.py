@@ -1,0 +1,5 @@
+string=input("Enter a string:")
+string1=input("Enter the string or character:")
+string2=input("Enter the character to be replaced:")
+new_string=string.replace(string1,string2)
+print(new_string)

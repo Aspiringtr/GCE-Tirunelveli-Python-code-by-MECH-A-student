@@ -1,0 +1,15 @@
+import numpy as np
+a=np.array([[3,6],[5,-3]])
+b=np.array([[5,10],[3,11]])
+print("a=",a)
+print("b=",b)
+print("First row of a=",a[0])
+print("last row of b=",b[-1])
+print("first column of b=",b[:,0])
+print("Last column of a=",a[:,-1])
+d=a+b
+print("matrix addition=",d)
+c=a.dot(b)
+print("matrix multiplication=",c)
+print("Transpose of a=",a.transpose())
+print("Transpose of b=",b.transpose())

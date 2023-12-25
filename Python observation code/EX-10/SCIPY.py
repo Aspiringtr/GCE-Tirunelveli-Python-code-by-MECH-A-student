@@ -1,0 +1,13 @@
+from scipy import special
+a=int(input("Enter a number:"))
+p=special.exp10(a)
+print("The",a,"th power of 10 is:",p)
+b=int(input("Enter a number:"))
+q=special.cbrt(b)
+print(f"The cube root of {b} is:",q)
+c=int(input("Enter an angle:"))
+r=special.sindg(c)
+print("The sin value:",r)
+d=int(input("Enter an angle:"))
+s=special.cosdg(d)
+print("The cos value is:",s)

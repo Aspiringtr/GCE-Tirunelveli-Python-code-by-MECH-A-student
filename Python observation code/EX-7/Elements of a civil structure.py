@@ -1,0 +1,26 @@
+x=set(input("Enter the elements of civil structure:").split())
+print("Your set is:",x)
+print("SET OPERATIONS")
+m=input("Enter an element to add:")
+x.add(m)
+print("Set after adding:",x)
+n=input("Enter an element to remove:")
+if n in x:
+    x.remove(n)
+    print("Set after removing:",x)
+else:
+    print("The element is not present")
+p=input("Enter a component:")
+if p in x:
+    print("The element is present in set")
+else:
+    print("The element is not present in the set")
+set1=set(input("Enter an element of civil structure:").split())
+set2=set(input("Enter an element of civil structure:").split())
+print("set1=",set1)
+print("set2=",set2)
+print("Intersection:",set1.intersection(set2))
+print("Element in set 1 but not in set 2:",set1-set2)
+print("Element in set 2 but not in set 1:",set2-set1)
+print("Symmetric difference:",set1^set2)
+print("Union:",set1|set2)

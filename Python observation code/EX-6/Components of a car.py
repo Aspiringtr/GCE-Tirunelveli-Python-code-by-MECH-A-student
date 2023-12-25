@@ -1,0 +1,16 @@
+a=[]
+n=int(input("Enter the no. of elements in the list:"))
+for i in range(n):
+    b=input("Enter a part of car:")
+    a.append(b)
+print("Your list is:",a)
+t=tuple(a)
+print("Your list as a tuple:",t)
+print("Indexing:",t[0])
+print("Slicing:",t[0:2])
+b=("Steering","Headlight")
+print("Repetation:",t*2)
+print("Membership:","steering" in b)
+print("Membership:","seats" in a)
+print("Membership:","seats" in b)
+print("Comparison:",b!=t)
